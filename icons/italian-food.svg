@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="italianGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d03f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="45" fill="url(#italianGrad)" opacity="0.1"/>
+  
+  <!-- 意式料理 -->
+  <g transform="translate(15, 15)">
+    <!-- 比萨饼 -->
+    <circle cx="35" cy="25" r="15" fill="#DEB887"/>
+    <circle cx="35" cy="25" r="12" fill="#FF6347"/>
+    <circle cx="30" cy="22" r="2" fill="#32CD32"/>
+    <circle cx="40" cy="22" r="2" fill="#32CD32"/>
+    <circle cx="35" cy="28" r="2" fill="#FFE4B5"/>
+    <circle cx="32" cy="30" r="2" fill="#FF6347"/>
+    <circle cx="38" cy="30" r="2" fill="#FF6347"/>
+    
+    <!-- 意大利面 -->
+    <path d="M15 45 Q25 40 35 45 Q25 50 15 45" stroke="#FFE4B5" stroke-width="3" fill="none"/>
+    <path d="M15 48 Q25 43 35 48 Q25 53 15 48" stroke="#FFE4B5" stroke-width="3" fill="none"/>
+    <path d="M15 51 Q25 46 35 51 Q25 56 15 51" stroke="#FFE4B5" stroke-width="3" fill="none"/>
+    
+    <!-- 意面酱 -->
+    <ellipse cx="25" cy="48" rx="8" ry="3" fill="#8B4513" opacity="0.7"/>
+    
+    <!-- 奶酪 -->
+    <rect x="45" y="40" width="8" height="8" fill="#FFE4B5" rx="1"/>
+    <rect x="47" y="42" width="4" height="4" fill="#F0E68C" rx="0.5"/>
+    
+    <!-- 橄榄油瓶 -->
+    <rect x="55" y="35" width="4" height="15" fill="#228B22"/>
+    <rect x="54" y="33" width="6" height="2" fill="#8B4513"/>
+    <circle cx="57" cy="34" r="1" fill="#8B4513"/>
+  </g>
+</svg>

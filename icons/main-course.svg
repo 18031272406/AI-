@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d03f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="45" fill="url(#mainGrad)" opacity="0.1"/>
+  
+  <!-- 主菜 -->
+  <g transform="translate(15, 15)">
+    <!-- 主菜盘 -->
+    <ellipse cx="35" cy="45" rx="25" ry="12" fill="#8B4513" opacity="0.3"/>
+    <ellipse cx="35" cy="43" rx="25" ry="12" fill="#F5DEB3"/>
+    
+    <!-- 肉类 -->
+    <ellipse cx="30" cy="35" rx="8" ry="4" fill="#8B4513"/>
+    <ellipse cx="40" cy="35" rx="8" ry="4" fill="#A0522D"/>
+    
+    <!-- 蔬菜 -->
+    <circle cx="25" cy="45" r="3" fill="#32CD32"/>
+    <circle cx="35" cy="45" r="3" fill="#FF6347"/>
+    <circle cx="45" cy="45" r="3" fill="#FFD700"/>
+    <circle cx="30" cy="50" r="3" fill="#9370DB"/>
+    <circle cx="40" cy="50" r="3" fill="#FF69B4"/>
+    
+    <!-- 配菜 -->
+    <ellipse cx="20" cy="55" rx="6" ry="3" fill="#DEB887"/>
+    <ellipse cx="50" cy="55" rx="6" ry="3" fill="#F4A460"/>
+    
+    <!-- 装饰 -->
+    <path d="M15 25 Q35 20 55 25" stroke="#32CD32" stroke-width="2" fill="none"/>
+    <circle cx="20" cy="23" r="1" fill="#32CD32"/>
+    <circle cx="35" cy="22" r="1" fill="#32CD32"/>
+    <circle cx="50" cy="23" r="1" fill="#32CD32"/>
+  </g>
+</svg>

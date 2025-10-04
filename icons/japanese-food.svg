@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="japaneseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d03f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="45" fill="url(#japaneseGrad)" opacity="0.1"/>
+  
+  <!-- 日式料理 -->
+  <g transform="translate(15, 15)">
+    <!-- 寿司 -->
+    <ellipse cx="25" cy="20" rx="8" ry="3" fill="#FFE4B5"/>
+    <ellipse cx="25" cy="18" rx="8" ry="3" fill="#FF6347"/>
+    <ellipse cx="25" cy="16" rx="8" ry="3" fill="#32CD32"/>
+    
+    <!-- 寿司卷 -->
+    <ellipse cx="45" cy="25" rx="10" ry="4" fill="#8B4513"/>
+    <ellipse cx="45" cy="23" rx="10" ry="4" fill="#FFE4B5"/>
+    <ellipse cx="45" cy="21" rx="10" ry="4" fill="#32CD32"/>
+    
+    <!-- 拉面碗 -->
+    <ellipse cx="35" cy="55" rx="18" ry="10" fill="#8B4513" opacity="0.8"/>
+    <ellipse cx="35" cy="52" rx="18" ry="10" fill="#F4A460"/>
+    
+    <!-- 面条 -->
+    <path d="M20 50 Q35 45 50 50 Q35 55 20 50" stroke="#FFE4B5" stroke-width="2" fill="none"/>
+    <path d="M20 52 Q35 47 50 52 Q35 57 20 52" stroke="#FFE4B5" stroke-width="2" fill="none"/>
+    <path d="M20 54 Q35 49 50 54 Q35 59 20 54" stroke="#FFE4B5" stroke-width="2" fill="none"/>
+    
+    <!-- 配菜 -->
+    <circle cx="30" cy="48" r="2" fill="#32CD32"/>
+    <circle cx="40" cy="48" r="2" fill="#FF6347"/>
+    <circle cx="35" cy="45" r="2" fill="#FFE4B5"/>
+  </g>
+</svg>

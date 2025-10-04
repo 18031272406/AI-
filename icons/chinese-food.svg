@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="chineseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d03f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="45" fill="url(#chineseGrad)" opacity="0.1"/>
+  
+  <!-- 中式餐具 -->
+  <g transform="translate(20, 20)">
+    <!-- 筷子 -->
+    <rect x="15" y="5" width="2" height="40" fill="#8B4513" rx="1"/>
+    <rect x="25" y="5" width="2" height="40" fill="#8B4513" rx="1"/>
+    
+    <!-- 碗 -->
+    <ellipse cx="20" cy="55" rx="15" ry="8" fill="#D2691E" opacity="0.8"/>
+    <ellipse cx="20" cy="52" rx="15" ry="8" fill="#F4A460"/>
+    
+    <!-- 蒸笼 -->
+    <rect x="45" y="30" width="20" height="15" fill="#8B4513" rx="2"/>
+    <rect x="47" y="28" width="16" height="2" fill="#A0522D"/>
+    <rect x="47" y="35" width="16" height="2" fill="#A0522D"/>
+    <rect x="47" y="42" width="16" height="2" fill="#A0522D"/>
+    
+    <!-- 饺子 -->
+    <ellipse cx="35" cy="25" rx="4" ry="2" fill="#FFE4B5"/>
+    <ellipse cx="40" cy="20" rx="4" ry="2" fill="#FFE4B5"/>
+    <ellipse cx="30" cy="20" rx="4" ry="2" fill="#FFE4B5"/>
+  </g>
+</svg>

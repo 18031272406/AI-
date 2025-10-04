@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="indianGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d03f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="45" fill="url(#indianGrad)" opacity="0.1"/>
+  
+  <!-- 印度料理 -->
+  <g transform="translate(15, 15)">
+    <!-- 咖喱 -->
+    <ellipse cx="30" cy="25" rx="15" ry="8" fill="#8B4513" opacity="0.8"/>
+    <ellipse cx="30" cy="23" rx="15" ry="8" fill="#FF8C00"/>
+    
+    <!-- 咖喱料 -->
+    <circle cx="25" cy="20" r="2" fill="#32CD32"/>
+    <circle cx="35" cy="20" r="2" fill="#FF6347"/>
+    <circle cx="30" cy="18" r="2" fill="#FFE4B5"/>
+    <circle cx="27" cy="25" r="2" fill="#FFD700"/>
+    <circle cx="33" cy="25" r="2" fill="#FF6347"/>
+    <circle cx="30" cy="28" r="2" fill="#32CD32"/>
+    
+    <!-- 馕饼 -->
+    <ellipse cx="55" cy="20" rx="8" ry="4" fill="#DEB887"/>
+    <ellipse cx="55" cy="18" rx="8" ry="4" fill="#F4A460"/>
+    <path d="M47 18 Q55 16 63 18" stroke="#8B4513" stroke-width="1" fill="none"/>
+    <path d="M47 20 Q55 18 63 20" stroke="#8B4513" stroke-width="1" fill="none"/>
+    
+    <!-- 香料 -->
+    <circle cx="20" cy="45" r="3" fill="#8B4513"/>
+    <circle cx="25" cy="50" r="3" fill="#8B4513"/>
+    <circle cx="20" cy="55" r="3" fill="#8B4513"/>
+    <circle cx="15" cy="50" r="3" fill="#8B4513"/>
+    
+    <!-- 印度奶茶 -->
+    <rect x="45" y="40" width="6" height="15" fill="#8B4513"/>
+    <rect x="46" y="38" width="4" height="2" fill="#8B4513"/>
+    <ellipse cx="48" cy="55" rx="3" ry="2" fill="#8B4513"/>
+    
+    <!-- 奶茶蒸汽 -->
+    <path d="M48 35 Q50 32 52 35" stroke="#F5F5F5" stroke-width="1" fill="none" opacity="0.7"/>
+    <path d="M48 33 Q50 30 52 33" stroke="#F5F5F5" stroke-width="1" fill="none" opacity="0.5"/>
+    
+    <!-- 米饭 -->
+    <ellipse cx="35" cy="55" rx="12" ry="6" fill="#F5F5F5" opacity="0.8"/>
+    <ellipse cx="35" cy="53" rx="12" ry="6" fill="#FFE4B5"/>
+    
+    <!-- 米饭粒 -->
+    <circle cx="30" cy="50" r="1" fill="#F5F5F5"/>
+    <circle cx="35" cy="50" r="1" fill="#F5F5F5"/>
+    <circle cx="40" cy="50" r="1" fill="#F5F5F5"/>
+    <circle cx="32" cy="53" r="1" fill="#F5F5F5"/>
+    <circle cx="37" cy="53" r="1" fill="#F5F5F5"/>
+    <circle cx="30" cy="56" r="1" fill="#F5F5F5"/>
+    <circle cx="35" cy="56" r="1" fill="#F5F5F5"/>
+    <circle cx="40" cy="56" r="1" fill="#F5F5F5"/>
+  </g>
+</svg>

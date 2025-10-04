@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="frenchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d03f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="45" fill="url(#frenchGrad)" opacity="0.1"/>
+  
+  <!-- 法式料理 -->
+  <g transform="translate(15, 15)">
+    <!-- 法式面包 -->
+    <ellipse cx="25" cy="20" rx="12" ry="4" fill="#DEB887"/>
+    <ellipse cx="25" cy="18" rx="12" ry="4" fill="#F4A460"/>
+    <path d="M13 18 Q25 15 37 18" stroke="#8B4513" stroke-width="1" fill="none"/>
+    <path d="M13 20 Q25 17 37 20" stroke="#8B4513" stroke-width="1" fill="none"/>
+    
+    <!-- 马卡龙 -->
+    <ellipse cx="50" cy="15" rx="6" ry="3" fill="#FF69B4"/>
+    <ellipse cx="50" cy="13" rx="6" ry="3" fill="#FFB6C1"/>
+    <ellipse cx="50" cy="11" rx="6" ry="3" fill="#FF69B4"/>
+    
+    <ellipse cx="60" cy="20" rx="6" ry="3" fill="#32CD32"/>
+    <ellipse cx="60" cy="18" rx="6" ry="3" fill="#90EE90"/>
+    <ellipse cx="60" cy="16" rx="6" ry="3" fill="#32CD32"/>
+    
+    <ellipse cx="40" cy="25" rx="6" ry="3" fill="#FFD700"/>
+    <ellipse cx="40" cy="23" rx="6" ry="3" fill="#FFFFE0"/>
+    <ellipse cx="40" cy="21" rx="6" ry="3" fill="#FFD700"/>
+    
+    <!-- 红酒 -->
+    <rect x="55" y="35" width="8" height="20" fill="#8B0000"/>
+    <rect x="56" y="33" width="6" height="2" fill="#8B4513"/>
+    <ellipse cx="59" cy="55" rx="4" ry="2" fill="#8B0000"/>
+    
+    <!-- 奶酪盘 -->
+    <ellipse cx="25" cy="50" rx="15" ry="8" fill="#8B4513" opacity="0.3"/>
+    <ellipse cx="25" cy="48" rx="15" ry="8" fill="#F5DEB3"/>
+    
+    <!-- 奶酪块 -->
+    <rect x="20" y="45" width="6" height="6" fill="#FFE4B5" rx="1"/>
+    <rect x="28" y="45" width="6" height="6" fill="#F0E68C" rx="1"/>
+    <rect x="24" y="52" width="6" height="6" fill="#DEB887" rx="1"/>
+  </g>
+</svg>
